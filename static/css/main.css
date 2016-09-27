@@ -1,0 +1,97 @@
+
+.titlename {
+    font-size: 40px;
+    padding-left: 20%;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+#contentcontainer {
+  padding-top: 175px;
+  padding-left: 1%;
+  display: block;
+  width: 50%;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+.col-md-3 {
+  padding: 10px;
+  text-align: center;
+
+  -webkit-animation: fall 0.3s;
+  -moz-animation: fall 0.3s;
+  animation: fall 0.3s;
+}
+
+.typed-cursor{
+    font-size: 40px;
+    opacity: 1;
+    -webkit-animation: blink 1.0s infinite;
+    -moz-animation: blink 1.0s infinite;
+    animation: blink 1.0s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+#resume{
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+#github{
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+#linkedin{
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+
+#email{
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+}
+
+@keyframes fall{
+      0%    {padding-top:10px; opacity: 1.0}
+      20%   {padding-top:8px; opacity: 0.9;}
+      40%   {padding-top:6px; opacity: 0.8;}
+      50%   {padding-top:5px; opacity: 0.8;}
+      60%  {padding-top:6px; opacity: 0.8;}
+      80%   {padding-top:8px; opacity: 0.9;}
+      100%  {padding-top:10px; opacity: 1.0;}
+}
+@-webkit-keyframes fall{
+      0%    {padding-top:10px; opacity: 1.0}
+      20%   {padding-top:8px; opacity: 0.9;}
+      40%   {padding-top:6px; opacity: 0.8;}
+      50%   {padding-top:5px; opacity: 0.8;}
+      60%  {padding-top:6px; opacity: 0.8;}
+      80%   {padding-top:8px; opacity: 0.9;}
+      100%  {padding-top:10px; opacity: 1.0;}
+}
+@-moz-keyframes fall{
+      0%    {padding-top:10px; opacity: 1.0}
+      20%   {padding-top:8px; opacity: 0.9;}
+      40%   {padding-top:6px; opacity: 0.8;}
+      50%   {padding-top:5px; opacity: 0.8;}
+      60%  {padding-top:6px; opacity: 0.8;}
+      80%   {padding-top:8px; opacity: 0.9;}
+      100%  {padding-top:10px; opacity: 1.0;}
+}
