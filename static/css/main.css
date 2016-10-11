@@ -1,9 +1,22 @@
 
 .titlename {
     font-size: 40px;
-    padding-left: 21%;
+    padding-left: 23%;
     font-family: 'Roboto Mono', sans-serif;
 }
+
+@media only screen and (max-width: 1300px) {
+    .titlename {
+        padding-left: 21%;
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .titlename {
+        padding-left: 26%;
+    }
+}
+
 
 #contentcontainer {
   padding-top: 175px;
