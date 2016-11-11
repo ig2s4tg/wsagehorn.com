@@ -1,8 +1,6 @@
-from flask import Flask, render_template, session, redirect, request, url_for
+from flask import Flask, render_template
 from flask.ext.mobility import Mobility
 from flask.ext.mobility.decorators import mobile_template
-
-from forms import NameForm
 
 app = Flask(__name__)
 Mobility(app)
